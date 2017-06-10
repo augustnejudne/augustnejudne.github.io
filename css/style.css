@@ -55,7 +55,6 @@ body {
 =====================*/
 
 .site-header {
-	min-height: 100vh;
 	background: #2980B9;
 	position: relative;
 	z-index: -2;
@@ -76,29 +75,30 @@ body {
 ===================*/
 
 .site-header-text {
-	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
 	font-weight: 700;
-	line-height: 180px;
 	opacity: 0.8;
 }
 
 #hi {
-	font-size: 7em;
+	font-size: 5em;
 	color: #c4e3ff;
+	margin-top: .5em;
 }
 
 #kim {
-	font-size: 17em;
+	line-height: 1em;
+	font-size: 10em;
 	color: #1f2a34;
-	margin-bottom: 25px;
+	margin-bottom: .2em;
 }
 
 .site-header-text h2 {
+	font-size: 1.8em;
 	color: #c4e3ff;
 }
 
@@ -107,13 +107,17 @@ body {
 =====================*/
 
 .work-in-progress {
-	font-size: 15px;
-	display: block;
-	position: absolute;
-	top: 10px;
-	padding: 5px 10px;
-	background: #ddd;
-	box-shadow: 5px 5px 10px rgba(50,50,50,0.8);
+	background: #333;
+	box-shadow: 0 5px 5px rgba(50,50,50,0.2);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.work-in-progress p {
+	color: tomato;
+	margin: 0;
 }
 
 
