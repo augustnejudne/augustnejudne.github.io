@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title>Kim Nej Portfolio</title>
+	<title>Kim Nejudne Portfolio</title>
 	<!--bootstrap-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
@@ -14,6 +14,8 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<!--    google fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+	<!-- aos -->
+	<link rel="stylesheet" type="text/css" href="css/aos.css">
 	<link rel="stylesheet" href="css/hover.css">
 	<link rel="stylesheet" href="css/style.css">
 
@@ -27,30 +29,58 @@
 			<li><a href="#contact" class="hvr-underline-from-center" id="link-contact">contact</a></li>
 		</ul>
 	</nav>
-	<div class="container-fluid work-in-progress">
+	<a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- 	<div class="container-fluid work-in-progress">
 		<p>site is currently under renovation</p>
-	</div>
+	</div> -->
 	<div id="main-container">
 		<header class="container-fluid site-header">
-			<div class="particles"></div>
 			<div class="container site-header-text">
-				<span id="hi">Hi! I'm</span>
-				<span id="kim">Kim</span>
-				<h2 class="col-md-6">{ graphic designer }</h2>
-				<h2 class="col-md-6">{ front-end developer }</h2>
+				<span id="hi" data-aos="zoom-out-down">Hi! I'm</span>
+				<span id="kim" data-aos="zoom-out-up">Kim</span>
+				<h2 class="col-md-6" data-aos="fade-right">{ graphic designer }</h2>
+				<h2 class="col-md-6" data-aos="fade-right">{ front-end developer }</h2>
 			</div>
 		</header>
+		
+		<section class="container-fluid" id="work">
+			<div class="row">
+				
+				<div class="col-xs-12 col-sm-6 col-md-4 show-image-div" data-aos="flip-left">
+					<img src="img/we%20can%20take%20the%20world%20back-01.png" alt="">
+				</div>
+				
+				<div class="col-xs-12 col-sm-6 col-md-4 show-image-div" data-aos="flip-left">
+					<img src="img/indie-poster-01.png" alt="">
+				</div>
+				
+				<div class="col-xs-12 col-sm-6 col-md-4 show-image-div" data-aos="flip-left">
+					<img src="img/nicole-donuts-02.png" alt="">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 show-image-div" data-aos="flip-left">
+					<img src="img/green-orange-01.png" alt="">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 show-image-div" data-aos="flip-left">
+					<img src="img/all-you-need-is-coffee-01.png" alt="">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 show-image-div" data-aos="flip-left">
+					<img src="img/i%20know%20you%20know.png" alt="">
+				</div>
+				
+			</div>
+		</section>
+		
 		<section class="container-fluid" id="about">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-8 col-sm-offset-2">
+					<div class="col-sm-8 col-sm-offset-2" data-aos="fade-right">
 						<h1>Freelance Creative Front-end Developer</h1>
 						<p>I'm a freelance creative front-end developer based in the Philippines. I develop compelling designs that spring to life using transition and animations that suit my clients using the tools listed below.</p>
 						<p>I love working with agencies and brands to help them realize their goal of creating outstanding that get them and their clients the results they need.</p>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-3 col-md-push-2" id="graphic-designer">
+					<div class="col-md-3 col-md-push-2" id="graphic-designer" data-aos="fade-up">
 						<h2>Graphic Design</h2>
 						<ul>
 							<li>Adobe Photoshop</li>
@@ -58,7 +88,7 @@
 							<li>Adobe Indesign</li>
 						</ul>
 					</div>
-					<div class="col-md-3 col-md-push-3" id="web-developer">
+					<div class="col-md-3 col-md-push-3" id="web-developer" data-aos="fade-up">
 						<h2>Web Development</h2>
 						<div class="row">
 							<ul>
@@ -74,11 +104,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="container-fluid" id="work">
-			<div class="container">
-				<h1>work samples to come</h1>
-			</div>
-		</section>
+		
 		<section class="container-fluid" id="contact">
 			<div class="container">
 				<h1>Contact Me</h1>
@@ -110,10 +136,10 @@
 						</div>
 					</div>
 				</form>
--->
-			</div>
-		</section>
-	</div>
+			-->
+		</div>
+	</section>
+</div>
 
 
 
@@ -121,10 +147,10 @@
 
 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script type='text/javascript' src='js/jquery.particleground.min.js'></script>
-	<script type='text/javascript' src='js/script.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/aos.js"></script>
+<script type='text/javascript' src='js/script.js'></script>
 </body>
 
 </html>
