@@ -24,8 +24,8 @@ html, body {
 	background: url("https://raw.githubusercontent.com/augustnejudne/augustnejudne.github.io/master/img/bg-01.png");
 	background-size: cover;
 	position: fixed;
-	min-width: 100vw;
-	min-height: 100vh;
+	height: 100%;
+	overflow: hidden;
 	z-index: -100;
 }
 
