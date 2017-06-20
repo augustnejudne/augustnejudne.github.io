@@ -163,12 +163,13 @@ html, body {
 	color: #fff;
 	font-size: 20px;
 	min-height: 100vh;
+	padding: 50px 0;
 }
 
 #about h1 {
 	font-weight: 700;
 	text-align: center;
-	margin-top: 50px;
+/*	margin-top: 50px;*/
 	padding-bottom: 20px;
 	border-bottom: 2px solid #fff;
 }
@@ -193,12 +194,12 @@ html, body {
 #about ul li {
 	padding: 15px;
 	margin: 5px;
-	background: rgba(150, 150, 150, 0.5);
+	background: rgba(150, 150, 150, 0.2);
 }
 
 #graphic-designer,
 #web-developer {
-	background: #b9b9b9;
+	background: #ffffff;
 	color: #272727;
 	padding: 10px 20px;
 	margin: 20px;
