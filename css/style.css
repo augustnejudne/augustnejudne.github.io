@@ -103,6 +103,7 @@ html, body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: -63px;
 }
 
 
@@ -121,14 +122,14 @@ html, body {
 #hi {
 	font-size: 5em;
 	color: #ddd;
-	margin-top: .5em;
+	/*margin-top: -100px;*/
 }
 
 #kim {
 	line-height: 1em;
 	font-size: 10em;
 	color: #ddd;
-	margin-bottom: .2em;
+	/*margin-bottom: .2em;*/
 }
 
 .site-header-text h2 {
