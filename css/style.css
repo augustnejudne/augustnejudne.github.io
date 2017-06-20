@@ -99,11 +99,10 @@ html, body {
 =====================*/
 
 .site-header {
-	min-height: 100vh;
+	height: calc(100vh - 63px);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: -63px;
 }
 
 
@@ -120,14 +119,14 @@ html, body {
 }
 
 #hi {
-	font-size: 5em;
+	font-size: 3em;
 	color: #ddd;
 	/*margin-top: -100px;*/
 }
 
 #kim {
 	line-height: 1em;
-	font-size: 10em;
+	font-size: 6em;
 	color: #ddd;
 	/*margin-bottom: .2em;*/
 }
@@ -199,7 +198,7 @@ html, body {
 
 #graphic-designer,
 #web-developer {
-	background: rgb(50,50,50);
+	background: rgb(200,80,80);
 	color: #eee;
 	padding: 10px 20px;
 	margin: 20px;
